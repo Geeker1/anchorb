@@ -107,3 +107,4 @@ so Make automatically adds the keys from the data it receives and it's easy for 
 
 ### Limitations:
 - Schema validation is not implemented. This was considered acceptable for this simple use case, as only a single key is passed in the payload.
+- If you choose to run the application locally without Docker, you must manually export environment variables using a bash command such as `export $(cat .env | xargs)` before starting the application to ensure all required configuration is available.

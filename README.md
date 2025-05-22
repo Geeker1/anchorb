@@ -2,9 +2,11 @@
 
 This project is a TypeScript-based automation agent designed to streamline book data collection and enrichment. It scrapes book information from BookDP.com.au using a thematic keyword, enhances the data with AI-generated summaries and relevance scores, calculates cost details, and sends the processed results to a productivity tool through Make.com integration.
 
-## Screenshots
+## Screenshots & GoogleSheet Link
 
 Please find attached in this repository, screenshots regarding make integration flow, OpenAI data logs regarding summary/relevance score and output sample.
+Attached here is the [Google Sheet](https://docs.google.com/spreadsheets/d/1Qex5U988gVu8G4E5l66BHlsd2DljEFot4E3GEPFAVk4/edit?usp=sharing) link which Make.com pushes bulk data into.
+
 
 ## Running the Project Locally
 

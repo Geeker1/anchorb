@@ -1,5 +1,5 @@
-import { logger } from "../logger";
-import { BookData } from "../types";
+import { logger } from "../../logger";
+import { BookData } from "../../types";
 
 
 const pushToMakeWebHook = async (books: BookData[], webhook_url: string) => {

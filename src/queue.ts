@@ -16,3 +16,14 @@ export const anchorQueue = new Queue('anchorb', {
         },
     },
 });
+
+// Seperate queue for retrying failed jobs
+export const retryQueue = new Queue('anchorb-retry', {
+    connection: redis, defaultJobOptions: {
+        attempts: 5,
+        backoff: {
+            type: 'exponential',
+            delay: 1000,
+        },
+    },
+});
